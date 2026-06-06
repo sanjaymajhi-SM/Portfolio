@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nabin — Full Stack Developer based in Kathmandu, Nepal. Building elegant software solutions with React, Node.js, and modern cloud technologies." />
+  <meta property="og:title" content="Nabin — Full Stack Developer" />
+  <meta property="og:description" content="Portfolio of Nabin, a Full Stack Developer specializing in React, Node.js, and UX/UI design." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#080808" />
+  <title>Nabin — Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────── -->
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="#hero" class="nav-logo" aria-label="Back to top">
+        <span aria-hidden="true"></span>
+        sanjay.dev
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#about" data-section="about">About</a></li>
+        <li><a href="#skills" data-section="skills">Skills</a></li>
+        <li><a href="#projects" data-section="projects">Projects</a></li>
+        <li><a href="#contact" class="nav-cta" data-section="contact">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero ────────────────────────────────────── -->
+  <section id="hero" aria-labelledby="hero-heading">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-blob" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-label" aria-hidden="true">Available for opportunities</div>
+
+        <h1 class="hero-h1" id="hero-heading">
+          Hi, I'm Sanjay.<br />
+          I build <em>software</em><br />
+          that matters.
+        </h1>
+
+        <p class="hero-sub">
+          Full Stack Developer based in Kathmandu, Nepal — crafting performant,
+          user-centered applications from frontend to backend to cloud.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            View My Work
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path d="M7.7 1.3a1 1 0 0 0-1.4 1.4L9.58 6H2a1 1 0 1 0 0 2h7.58L6.3 11.3a1 1 0 0 0 1.4 1.4l5-5a1 1 0 0 0 0-1.4l-5-5z"/></svg>
+          </a>
+          <a href="#contact" class="btn-outline">Let's Talk</a>
+        </div>
+
+        <div class="hero-stats" role="list" aria-label="Quick stats">
+          <div role="listitem">
+            <div class="stat-num">3<span>+</span></div>
+            <div class="stat-label">Years coding</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-num">10<span>+</span></div>
+            <div class="stat-label">Projects built</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-num">2<span>+</span></div>
+            <div class="stat-label">Domains</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About ───────────────────────────────────── -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" aria-hidden="true">About me</div>
+        <h2 class="section-title" id="about-heading">The person behind the code</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Full Stack Developer</strong> based in Kathmandu, Nepal with a passion
+            for building software that's both technically sound and delightful to use.
+            I believe great products are born at the intersection of engineering and empathy.
+          </p>
+          <p>
+            Currently pursuing studies in software engineering and UX/UI design,
+            I work on projects that span web development, API design, database architecture,
+            and user experience research — giving me a well-rounded perspective on the entire
+            product lifecycle.
+          </p>
+          <p>
+            When I'm not coding, I'm researching design systems, exploring new frameworks,
+            or thinking about how technology can better serve communities in Nepal and beyond.
+          </p>
+          <div style="margin-top:32px; display:flex; gap:12px; flex-wrap:wrap;">
+            <a href="#contact" class="btn-primary" style="font-size:13px; padding:10px 20px;">Hire Me →</a>
+            <a href="#" class="btn-outline" style="font-size:13px; padding:10px 20px;" aria-label="Download CV">Download CV</a>
+          </div>
+        </div>
+
+        <div class="about-aside">
+          <div class="about-card reveal">
+            <div class="about-card-icon" aria-hidden="true">⚡</div>
+            <h4>Fast & Performant</h4>
+            <p>I optimize for speed and efficiency at every layer — from clean algorithms to efficient database queries and lightweight frontend bundles.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-card-icon" aria-hidden="true">🎨</div>
+            <h4>Design-Aware</h4>
+            <p>With UX/UI skills to complement my engineering, I build interfaces that look great and feel intuitive — not just code that works.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-card-icon" aria-hidden="true">🔒</div>
+            <h4>Security Minded</h4>
+            <p>From input validation and rate limiting to proper authentication flows, security is never an afterthought in my work.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ──────────────────────────────────── -->
+  <section id="skills" class="section" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" aria-hidden="true">Technical skills</div>
+        <h2 class="section-title" id="skills-heading">Tools I work with</h2>
+        <p class="section-sub">A curated stack refined through real-world projects and continuous learning.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-cat-label">Frontend</div>
+          <div class="skill-items">
+            <span class="tag">React</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">Figma</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-label">Backend</div>
+          <div class="skill-items">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">Python</span>
+            <span class="tag">Django</span>
+            <span class="tag">REST APIs</span>
+            <span class="tag">GraphQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-label">Database</div>
+          <div class="skill-items">
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Redis</span>
+            <span class="tag">Prisma</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-label">Tools & Cloud</div>
+          <div class="skill-items">
+            <span class="tag">Git</span>
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">Postman</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-label">UX / Design</div>
+          <div class="skill-items">
+            <span class="tag">Figma</span>
+            <span class="tag">User Research</span>
+            <span class="tag">Wireframing</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">Usability Testing</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-label">Soft Skills</div>
+          <div class="skill-items">
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Technical Writing</span>
+            <span class="tag">Research</span>
+            <span class="tag">Agile</span>
+            <span class="tag">Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Projects ────────────────────────────────── -->
+  <section id="projects" class="section" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" aria-hidden="true">Selected work</div>
+        <h2 class="section-title" id="projects-heading">Projects I'm proud of</h2>
+        <p class="section-sub">A selection of things I've built — from research systems to UX redesigns.</p>
+      </div>
+
+      <div class="projects-grid" id="projects-container" aria-live="polite" aria-label="Projects list">
+        <!-- Loaded dynamically from /api/projects -->
+        <div style="color:var(--text-muted);font-family:var(--font-mono);font-size:13px;padding:20px 0;">
+          Loading projects...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ─────────────────────────────────── -->
+  <section id="contact" class="section" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" aria-hidden="true">Get in touch</div>
+        <h2 class="section-title" id="contact-heading">Let's work together</h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Open to opportunities</h3>
+          <p>
+            Whether you have a project in mind, a role to fill, or just want to
+            talk about tech and design — my inbox is always open.
+          </p>
+
+          <nav class="contact-links" aria-label="Contact links">
+            <a href="mailto:nabin@example.com" class="contact-link" aria-label="Email Nabin">
+              <span class="contact-link-icon" aria-hidden="true">✉</span>
+              <div>
+                <div style="font-weight:500;font-size:13px;color:var(--text-primary);">Email</div>
+                <div style="font-size:12px;font-family:var(--font-mono);">sanjay@example.com</div>
+              </div>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="GitHub profile (opens in new tab)">
+              <span class="contact-link-icon" aria-hidden="true">⌥</span>
+              <div>
+                <div style="font-weight:500;font-size:13px;color:var(--text-primary);">GitHub</div>
+                <div style="font-size:12px;font-family:var(--font-mono);">github.com/sanjay</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="LinkedIn profile (opens in new tab)">
+              <span class="contact-link-icon" aria-hidden="true">in</span>
+              <div>
+                <div style="font-weight:500;font-size:13px;color:var(--text-primary);">LinkedIn</div>
+                <div style="font-size:12px;font-family:var(--font-mono);">linkedin.com/in/sanjay</div>
+              </div>
+            </a>
+            <div class="contact-link" style="cursor:default;">
+              <span class="contact-link-icon" aria-hidden="true">📍</span>
+              <div>
+                <div style="font-weight:500;font-size:13px;color:var(--text-primary);">Location</div>
+                <div style="font-size:12px;font-family:var(--font-mono);">Kathmandu, Nepal</div>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <form class="contact-form reveal" id="contact-form" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Aarav Sharma" autocomplete="name" />
+            <span class="form-error" id="name-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="aarav@example.com" autocomplete="email" />
+            <span class="form-error" id="email-error" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Hi Nabin, I'd love to discuss..."></textarea>
+            <span class="form-error" id="message-error" role="alert"></span>
+          </div>
+
+          <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn-primary" id="form-submit" style="width:100%;justify-content:center;">
+              Send Message →
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Footer ──────────────────────────────────── -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          © 2025 <span>Sanjay</span> — Built with Node.js &amp; Express
+        </p>
+        <nav class="footer-links" aria-label="Footer navigation">
+          <a href="#hero">Top ↑</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── AI Chatbot ───────────────────────────────── -->
+  <button
+    id="chat-trigger"
+    aria-label="Open AI assistant"
+    aria-expanded="false"
+    aria-controls="chat-panel"
+    title="Chat with Nabin's AI Assistant"
+  >
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+      <path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 12H5.17L4 15.17V4h16v10z"/>
+    </svg>
+  </button>
+
+  <div
+    id="chat-panel"
+    role="dialog"
+    aria-label="AI assistant chat"
+    aria-modal="false"
+  >
+    <div class="chat-header">
+      <div class="chat-avatar" aria-hidden="true">🤖</div>
+      <div class="chat-header-info">
+        <div class="chat-header-name">Sanjay's Assistant</div>
+        <div class="chat-header-status">Online</div>
+      </div>
+      <button class="chat-close" id="chat-close" aria-label="Close chat">✕</button>
+    </div>
+
+    <div class="chat-messages" id="chat-messages" role="log" aria-label="Chat messages" aria-live="polite"></div>
+
+    <div class="chat-input-row">
+      <textarea
+        id="chat-input"
+        placeholder="Ask about my skills, projects..."
+        rows="1"
+        aria-label="Type your message"
+        maxlength="500"
+      ></textarea>
+      <button id="chat-send" aria-label="Send message" title="Send (Enter)">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
